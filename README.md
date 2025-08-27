@@ -62,33 +62,7 @@
 
 ---
 
-## 📂 Project Structure
-
-<div align="center">
-
-<div style="display:flex; justify-content:center; flex-wrap: wrap; gap:15px;">
-<div style="border:2px solid #6f42c1; border-radius:12px; padding:12px 20px;">
-📄 app.py<br><sub>Streamlit frontend</sub>
-</div>
-
-<div style="border:2px solid #28a745; border-radius:12px; padding:12px 20px;">
-📓 movie-recommendation-system.ipynb<br><sub>Jupyter Notebook</sub>
-</div>
-
-<div style="border:2px solid #17a2b8; border-radius:12px; padding:12px 20px;">
-📦 setup.sh<br><sub>Install dependencies & download NLTK</sub>
-</div>
-
-<div style="border:2px solid #ffc107; border-radius:12px; padding:12px 20px;">
-🗂️ tmdb_5000_movies.csv<br><sub>Movie dataset</sub>
-</div>
-
-<div style="border:2px solid #fd7e14; border-radius:12px; padding:12px 20px;">
-🗂️ tmdb_5000_credits.csv<br><sub>Credits dataset</sub>
-</div>
-
-</div>
-</div>
+<div align="center" style="display:flex; flex-wrap: wrap; justify-content:center; gap:25px;"> <div style="background: linear-gradient(135deg, #6f42c1, #a855f7); color:white; padding:20px 25px; border-radius:15px; min-width:160px; text-align:center; box-shadow: 2px 6px 20px rgba(0,0,0,0.25); transition: transform 0.3s;"> 📄 <strong>app.py</strong><br> <sub>Streamlit frontend</sub> </div> <div style="background: linear-gradient(135deg, #28a745, #71f584); color:white; padding:20px 25px; border-radius:15px; min-width:160px; text-align:center; box-shadow: 2px 6px 20px rgba(0,0,0,0.25); transition: transform 0.3s;"> 📓 <strong>movie-recommendation-system.ipynb</strong><br> <sub>Jupyter Notebook</sub> </div> <div style="background: linear-gradient(135deg, #0d6efd, #66b2ff); color:white; padding:20px 25px; border-radius:15px; min-width:160px; text-align:center; box-shadow: 2px 6px 20px rgba(0,0,0,0.25); transition: transform 0.3s;"> 📦 <strong>setup.sh</strong><br> <sub>Install dependencies & NLTK</sub> </div> <div style="background: linear-gradient(135deg, #ffc107, #ffec7f); color:white; padding:20px 25px; border-radius:15px; min-width:160px; text-align:center; box-shadow: 2px 6px 20px rgba(0,0,0,0.25); transition: transform 0.3s;"> 🗂️ <strong>tmdb_5000_movies.csv</strong><br> <sub>Movies dataset</sub> </div> <div style="background: linear-gradient(135deg, #fd7e14, #ffb84d); color:white; padding:20px 25px; border-radius:15px; min-width:160px; text-align:center; box-shadow: 2px 6px 20px rgba(0,0,0,0.25); transition: transform 0.3s;"> 🗂️ <strong>tmdb_5000_credits.csv</strong><br> <sub>Credits dataset</sub> </div> </div> <style> div[align="center"] > div:hover { transform: scale(1.05); } </style>
 
 ---
 
@@ -196,4 +170,5 @@ Dataset: TMDB 5000 Movie Dataset
 Libraries: Scikit-learn, Pandas, NLTK, Streamlit
 
 UI Inspiration: Modern Streamlit dashboards
+
 
