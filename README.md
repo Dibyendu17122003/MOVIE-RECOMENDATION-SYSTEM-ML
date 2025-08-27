@@ -12,27 +12,41 @@
 
 ---
 
-## ✨ Project Demo
+<div align="center">
 
-<p align="center">
 <img src="assets/demo.gif" alt="Movie Recommendation Demo" width="700">
-</p>
+
+</div>
 
 ---
 
-## 🚀 Features
+## ✨ Key Features
 
 <div align="center">
 
-| Feature | Description |
-|---------|-------------|
-| 🎯 **Content-Based Filtering** | Cosine similarity recommendations |
-| ⚡ **Hyperparameter Tuning** | GridSearchCV for TF-IDF vectorizer |
-| 🔍 **Advanced Preprocessing** | Stemming, stopwords removal, feature engineering |
-| 💻 **Interactive UI** | Streamlit frontend for easy interaction |
-| ☁️ **Deployment Ready** | Ready for Render or other cloud platforms |
-| 💾 **Model Persistence** | Save/load similarity matrices |
+<div style="display:flex; justify-content:center; flex-wrap: wrap; gap: 10px;">
 
+<div style="background:#6f42c1; color:white; padding:12px 20px; border-radius:12px;">
+🎯 Content-Based Filtering<br><sub>Cosine similarity recommendations</sub>
+</div>
+
+<div style="background:#28a745; color:white; padding:12px 20px; border-radius:12px;">
+⚡ Hyperparameter Tuning<br><sub>GridSearchCV for TF-IDF</sub>
+</div>
+
+<div style="background:#17a2b8; color:white; padding:12px 20px; border-radius:12px;">
+🔍 Advanced Preprocessing<br><sub>Stemming, stopwords, feature engineering</sub>
+</div>
+
+<div style="background:#ffc107; color:white; padding:12px 20px; border-radius:12px;">
+💻 Interactive UI<br><sub>Streamlit frontend for easy usage</sub>
+</div>
+
+<div style="background:#fd7e14; color:white; padding:12px 20px; border-radius:12px;">
+💾 Model Persistence<br><sub>Save/load similarity matrix</sub>
+</div>
+
+</div>
 </div>
 
 ---
@@ -40,66 +54,75 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)] 
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-yellow?logo=scikit-learn)]
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-lightblue?logo=pandas)]
-[![NLTK](https://img.shields.io/badge/NLTK-NLP-orange?logo=nltk)]
-[![Streamlit](https://img.shields.io/badge/Streamlit-UI-green?logo=streamlit)]
-[![Render](https://img.shields.io/badge/Deployment-Render-purple)]
-
+[![Pandas](https://img.shields.io/badge/Pandas-lightblue?logo=pandas)]
+[![NLTK](https://img.shields.io/badge/NLTK-orange?logo=nltk)]
+[![Streamlit](https://img.shields.io/badge/Streamlit-green?logo=streamlit)]
 </div>
 
 ---
 
 ## 📂 Project Structure
 
-MOVIE-RECOMMENDATION-SYSTEM/
-├── .gitignore
-├── README.md
-├── app.py # Streamlit frontend
-├── movie-recommendation-system.ipynb # Jupyter Notebook
-├── procfile # Deployment config
-├── requirements.txt # Python dependencies
-├── setup.sh # Setup script
-├── tmdb_5000_credits.csv # Credits dataset
-└── tmdb_5000_movies.csv # Movies dataset
+<div align="center">
 
+<div style="display:flex; justify-content:center; flex-wrap: wrap; gap:15px;">
+<div style="border:2px solid #6f42c1; border-radius:12px; padding:12px 20px;">
+📄 app.py<br><sub>Streamlit frontend</sub>
+</div>
+
+<div style="border:2px solid #28a745; border-radius:12px; padding:12px 20px;">
+📓 movie-recommendation-system.ipynb<br><sub>Jupyter Notebook</sub>
+</div>
+
+<div style="border:2px solid #17a2b8; border-radius:12px; padding:12px 20px;">
+📦 setup.sh<br><sub>Install dependencies & download NLTK</sub>
+</div>
+
+<div style="border:2px solid #ffc107; border-radius:12px; padding:12px 20px;">
+🗂️ tmdb_5000_movies.csv<br><sub>Movie dataset</sub>
+</div>
+
+<div style="border:2px solid #fd7e14; border-radius:12px; padding:12px 20px;">
+🗂️ tmdb_5000_credits.csv<br><sub>Credits dataset</sub>
+</div>
+
+</div>
+</div>
 
 ---
 
-## ⚡ Installation
+## ⚡ Installation & Setup
 
 <details>
-<summary>Click to Expand Installation Steps</summary>
+<summary>Click to Expand</summary>
 
 'bash'
 # Clone repository
 git clone https://github.com/yourusername/movie-recommendation-system.git
 cd MOVIE-RECOMMENDATION-SYSTEM
 
-# Run setup script (installs dependencies and downloads NLTK data)
+# Run setup script (installs dependencies & NLTK)
 bash setup.sh
-
 Or manually:
-
-# Create virtual environment
 python -m venv venv
 venv\Scripts\activate         # Windows
 # source venv/bin/activate     # Mac/Linux
 
-# Install dependencies
 pip install -r requirements.txt
 
-# Download NLTK stopwords
 python -c "import nltk; nltk.download('stopwords')"
 </details>
-
 📝 Data Preprocessing
-<details> <summary>Click to Expand Preprocessing Steps</summary>
-Pipeline includes:
-✅ Cleaning: missing values, duplicates
+<details> <summary>Click to Expand</summary>
+
+Steps included:
+
+✅ Data Cleaning: remove missing values & duplicates
+
 📝 Text Processing: lowercase, remove stopwords, stemming
+
 🔧 Feature Engineering: combine title, overview, genres, keywords, cast, crew
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -109,15 +132,17 @@ feature_matrix = vectorizer.fit_transform(combined_features)
 similarity_matrix = cosine_similarity(feature_matrix)
 </details>
 🤖 Model Training
-<details> <summary>Click to Expand Model Training Steps</summary>
-Train content-based filtering model:
-# Run in Jupyter Notebook
+<details> <summary>Click to Expand</summary>
+
+Train content-based filtering model using Jupyter Notebook:
 jupyter notebook movie-recommendation-system.ipynb
+Explore data, preprocess, create feature matrix, compute similarity, save matrix.
+
 </details>
 ⚙️ Hyperparameter Tuning
-<details> <summary>Click to Expand Hyperparameter Tuning</summary>
+<details> <summary>Click to Expand</summary>
 
-Optimize TF-IDF vectorizer using GridSearchCV:
+Optimize TF-IDF vectorizer:
 param_grid = {
     'max_features': [5000, 10000, 15000],
     'stop_words': ['english', None],
@@ -132,42 +157,34 @@ grid_search = GridSearchCV(
     cv=3,
     n_jobs=-1
 )
-| Metric                                               | Score                                    |
-| ---------------------------------------------------- | ---------------------------------------- |
-| <span style="color:#6f42c1;">**Precision\@5**</span> | <span style="color:#28a745;">0.78</span> |
-| <span style="color:#6f42c1;">**Recall\@5**</span>    | <span style="color:#28a745;">0.65</span> |
-| <span style="color:#6f42c1;">**Diversity**</span>    | <span style="color:#28a745;">0.82</span> |
+</details>
 🎯 Evaluation Metrics
+<div align="center" style="display:flex; justify-content:center; gap:20px; flex-wrap: wrap;"> <div style="background: linear-gradient(135deg, #6f42c1, #a855f7); color:white; padding:15px 25px; border-radius:15px; min-width:120px; text-align:center; box-shadow: 2px 4px 10px rgba(0,0,0,0.2);"> 🟣 <strong>Precision@5</strong><br> <span style="font-size:20px;">0.78</span> </div> <div style="background: linear-gradient(135deg, #0d6efd, #66b2ff); color:white; padding:15px 25px; border-radius:15px; min-width:120px; text-align:center; box-shadow: 2px 4px 10px rgba(0,0,0,0.2);"> 🔵 <strong>Recall@5</strong><br> <span style="font-size:20px;">0.65</span> </div> <div style="background: linear-gradient(135deg, #198754, #4ade80); color:white; padding:15px 25px; border-radius:15px; min-width:120px; text-align:center; box-shadow: 2px 4px 10px rgba(0,0,0,0.2);"> 🟢 <strong>Diversity</strong><br> <span style="font-size:20px;">0.82</span> </div> </div>
+🔹 Alternative GitHub Badge-Style (simpler, works in README)
 <div align="center">
 
-🟣 Precision@5: 0.78
 
-🔵 Recall@5: 0.65
 
-🟢 Diversity: 0.82
+
+
 
 </div>
-🌐 Deployment
-<details> <summary>Click to Expand Deployment Instructions</summary>
+📱 Usage (Local)
 
-Local Deployment:
+Activate your virtual environment
+
+Run Streamlit:
 streamlit run app.py
-</details>
-📱 Usage
+Open browser → select a movie → get recommendations
 
-Select a movie from dropdown
-
-Get top recommendations instantly
-
-Click recommended movies for details
-
+Click on recommended movies for more details
 🔮 Future Improvements
 
 🤝 Collaborative filtering
 
 ⚡ Hybrid recommendation system
 
-👤 User preference integration
+👤 Personalized recommendations
 
 ⏱️ Real-time updates
 
@@ -177,6 +194,6 @@ Click recommended movies for details
 
 Dataset: TMDB 5000 Movie Dataset
 
-Libraries: Scikit-learn, Pandas, Streamlit
+Libraries: Scikit-learn, Pandas, NLTK, Streamlit
 
-Deployment: Render
+UI Inspiration: Modern Streamlit dashboards
