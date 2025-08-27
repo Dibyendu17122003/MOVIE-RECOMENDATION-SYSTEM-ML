@@ -172,8 +172,10 @@ Inspiration: Modern recommendation systems research
 
 Crafted with ❤️ by Dibyendu Karmahapatra
 
-![GitHub Stars](https://img.shields.io/github/stars/dibyendu6263/movie-recommendation-system?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/dibyendu6263/movie-recommendation-system?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYATEM-ML?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYATEM-ML?style=social)
+
+
 
 
 
