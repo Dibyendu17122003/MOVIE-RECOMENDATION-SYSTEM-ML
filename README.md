@@ -14,11 +14,6 @@ An Intelligent Content-Based Movie Recommender with Bag-of-Words Technique
 
 </div>
 
-<img src="https://via.placeholder.com/700x400/6f42c1/ffffff?text=Movie+Recommendation+Demo" 
-     alt="Movie Recommendation Demo" 
-     width="700" 
-     style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); display:block; margin-left:0;">
-
 ✨ Features
 <div style="display: flex; flex-direction: column; gap: 15px; margin: 20px 0; align-items: flex-start;"> <div style="background: linear-gradient(135deg, #6f42c1 0%, #a855f7 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🎯 Bag-of-Words Model</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Advanced text representation with CountVectorizer</p> </div> <div style="background: linear-gradient(135deg, #28a745 0%, #4ade80 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🔧 Data Preprocessing</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Comprehensive text cleaning and feature engineering</p> </div> <div style="background: linear-gradient(135deg, #0d6efd 0%, #66b2ff 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">📊 Vectorization</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Efficient text-to-vector conversion</p> </div> <div style="background: linear-gradient(135deg, #dc3545 0%, #f87171 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🤖 Model Building</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Cosine similarity for content-based filtering</p> </div> <div style="background: linear-gradient(135deg, #fd7e14 0%, #ffb84d 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">⚡ Model Improvement</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Hyperparameter tuning and optimization</p> </div> <div style="background: linear-gradient(135deg, #20c997 0%, #5eead4 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🎨 Interactive UI</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Beautiful Streamlit interface with movie posters</p> </div> </div>
 🛠️ Tech Stack
@@ -134,11 +129,11 @@ def get_recommendations(movie_title, num_recommendations=5):
 👨‍💻 About the Developer
 Dibyendu Karmahapatra - Solo Developer & Machine Learning Enthusiast
 
-🌐 Portfolio: dibyendu6263.github.io
+🌐 Portfolio: still not hosted... cumming soon
 
 💼 LinkedIn: Dibyendu Karmahapatra
 
-🐙 GitHub: @dibyendu6263
+🐙 GitHub: dibyendu17122003
 
 This project showcases my expertise in natural language processing, machine learning, and full-stack development.
 
@@ -175,11 +170,10 @@ Libraries: Scikit-learn, Pandas, NLTK, Streamlit
 
 Inspiration: Modern recommendation systems research
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 Crafted with ❤️ by Dibyendu Karmahapatra
 
-https://img.shields.io/github/stars/dibyendu6263/movie-recommendation-system?style=social
-https://img.shields.io/github/forks/dibyendu6263/movie-recommendation-system?style=social
+![GitHub Stars](https://img.shields.io/github/stars/dibyendu6263/movie-recommendation-system?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/dibyendu6263/movie-recommendation-system?style=social)
+
+
 
