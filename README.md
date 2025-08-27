@@ -6,7 +6,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://www.python.org/) 
 [![Streamlit](https://img.shields.io/badge/Streamlit-UI-green?logo=streamlit)](https://streamlit.io/) 
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-yellow?logo=scikit-learn)](https://scikit-learn.org/) 
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)  
 
 </div>
 
@@ -197,3 +196,4 @@ Dataset: TMDB 5000 Movie Dataset
 Libraries: Scikit-learn, Pandas, NLTK, Streamlit
 
 UI Inspiration: Modern Streamlit dashboards
+
