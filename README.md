@@ -1,32 +1,24 @@
-🎬 CinematicAI: Movie Recommendation System
-<div align="center">
-https://img.shields.io/badge/Python-3.8+-blue?logo=python&style=for-the-badge
-https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
-https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
-https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
+# 🎬 CinematicAI: Movie Recommendation System
 
-An Intelligent Content-Based Movie Recommender with Bag-of-Words Technique
-
-https://static.streamlit.io/badges/streamlit_badge_black_white.svg
-https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
-
-</div><p align="center"> <img src="https://via.placeholder.com/700x400/6f42c1/ffffff?text=Movie+Recommendation+Demo" alt="Movie Recommendation Demo" width="700" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);"> </p>
-✨ Features
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin: 20px 0;"> <div style="background: linear-gradient(135deg, #6f42c1
-i said i donot want any data on center always on the lest side
-🎬 CinematicAI: Movie Recommendation System
 <div align="left">
-https://img.shields.io/badge/Python-3.8+-blue?logo=python&style=for-the-badge
-https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
-https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
-https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&style=for-the-badge)]()
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)]()
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)]()
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)]()
 
 An Intelligent Content-Based Movie Recommender with Bag-of-Words Technique
 
-https://static.streamlit.io/badges/streamlit_badge_black_white.svg
-https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
+[![Streamlit Badge](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)]()
 
-</div><img src="https://via.placeholder.com/700x400/6f42c1/ffffff?text=Movie+Recommendation+Demo" alt="Movie Recommendation Demo" width="700" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-left: 0;">
+</div>
+
+<img src="https://via.placeholder.com/700x400/6f42c1/ffffff?text=Movie+Recommendation+Demo" 
+     alt="Movie Recommendation Demo" 
+     width="700" 
+     style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); display:block; margin-left:0;">
+
 ✨ Features
 <div style="display: flex; flex-direction: column; gap: 15px; margin: 20px 0; align-items: flex-start;"> <div style="background: linear-gradient(135deg, #6f42c1 0%, #a855f7 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🎯 Bag-of-Words Model</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Advanced text representation with CountVectorizer</p> </div> <div style="background: linear-gradient(135deg, #28a745 0%, #4ade80 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🔧 Data Preprocessing</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Comprehensive text cleaning and feature engineering</p> </div> <div style="background: linear-gradient(135deg, #0d6efd 0%, #66b2ff 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">📊 Vectorization</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Efficient text-to-vector conversion</p> </div> <div style="background: linear-gradient(135deg, #dc3545 0%, #f87171 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🤖 Model Building</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Cosine similarity for content-based filtering</p> </div> <div style="background: linear-gradient(135deg, #fd7e14 0%, #ffb84d 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">⚡ Model Improvement</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Hyperparameter tuning and optimization</p> </div> <div style="background: linear-gradient(135deg, #20c997 0%, #5eead4 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🎨 Interactive UI</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Beautiful Streamlit interface with movie posters</p> </div> </div>
 🛠️ Tech Stack
@@ -190,3 +182,4 @@ Crafted with ❤️ by Dibyendu Karmahapatra
 
 https://img.shields.io/github/stars/dibyendu6263/movie-recommendation-system?style=social
 https://img.shields.io/github/forks/dibyendu6263/movie-recommendation-system?style=social
+
