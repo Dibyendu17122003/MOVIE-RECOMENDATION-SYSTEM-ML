@@ -2,10 +2,15 @@
 
 <div align="left">
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&style=for-the-badge)]()
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)]()
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)]()
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)]()
+[![Live App](https://img.shields.io/badge/%F0%9F%9A%80%20Live%20App-Streamlit-brightgreen?style=for-the-badge&logo=streamlit&logoColor=white)](https://spam-classifier-ml-app.streamlit.app/) 
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) 
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) 
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/) 
+[![NLTK](https://img.shields.io/badge/NLTK-purple?style=for-the-badge&logo=nltk&logoColor=white)](https://www.nltk.org/) 
+[![Bag-of-Words](https://img.shields.io/badge/Bag--of--Words-orange?style=for-the-badge)]()
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-FF6F61?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/) 
+[![Seaborn](https://img.shields.io/badge/Seaborn-77ACF1?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/) 
 
 An Intelligent Content-Based Movie Recommender with Bag-of-Words Technique
 
@@ -174,6 +179,7 @@ Crafted with ❤️ by Dibyendu Karmahapatra
 
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
