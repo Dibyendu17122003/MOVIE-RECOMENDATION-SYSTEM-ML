@@ -1,4 +1,20 @@
 🎬 CinematicAI: Movie Recommendation System
+<div align="center">
+https://img.shields.io/badge/Python-3.8+-blue?logo=python&style=for-the-badge
+https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
+https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
+https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
+
+An Intelligent Content-Based Movie Recommender with Bag-of-Words Technique
+
+https://static.streamlit.io/badges/streamlit_badge_black_white.svg
+https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
+
+</div><p align="center"> <img src="https://via.placeholder.com/700x400/6f42c1/ffffff?text=Movie+Recommendation+Demo" alt="Movie Recommendation Demo" width="700" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);"> </p>
+✨ Features
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin: 20px 0;"> <div style="background: linear-gradient(135deg, #6f42c1
+i said i donot want any data on center always on the lest side
+🎬 CinematicAI: Movie Recommendation System
 <div align="left">
 https://img.shields.io/badge/Python-3.8+-blue?logo=python&style=for-the-badge
 https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
@@ -23,13 +39,18 @@ pip package manager
 
 Installation
 Clone the repository
+
+bash
 git clone https://github.com/dibyendu6263/movie-recommendation-system.git
 cd movie-recommendation-system
 Set up the environment
+
+bash
 # Run the setup script (installs dependencies & NLTK data)
 bash setup.sh
 Or manually:
 
+bash
 # Create virtual environment
 python -m venv venv
 
@@ -46,12 +67,15 @@ pip install -r requirements.txt
 python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
 Run the application
 
+bash
 streamlit run app.py
 Open your browser and navigate to http://localhost:8501
 
 🔥 Implementation Details
 📝 Data Preprocessing
 Our comprehensive preprocessing pipeline includes:
+
+python
 # Text cleaning and normalization
 def clean_text(text):
     # Convert to lowercase
@@ -66,13 +90,17 @@ def clean_text(text):
 def preprocess_text(text):
     stop_words = set(stopwords.words('english'))
     stemmer = PorterStemmer()
+    
     # Tokenize
     words = word_tokenize(text)
     # Remove stopwords and stem
     processed_words = [stemmer.stem(word) for word in words if word not in stop_words]
+    
     return ' '.join(processed_words)
 🎒 Bag-of-Words Technique
 We implemented CountVectorizer for efficient text representation:
+
+python
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Initialize CountVectorizer with optimal parameters
@@ -87,6 +115,7 @@ vectorizer = CountVectorizer(
 # Create feature matrix
 feature_matrix = vectorizer.fit_transform(combined_features)
 📊 Vectorization & Model Building
+python
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Compute cosine similarity matrix
@@ -96,12 +125,16 @@ similarity_matrix = cosine_similarity(feature_matrix)
 def get_recommendations(movie_title, num_recommendations=5):
     # Find movie index
     movie_index = movies[movies['title'] == movie_title].index[0]
+    
     # Get similarity scores
     similarity_scores = list(enumerate(similarity_matrix[movie_index]))
+    
     # Sort by similarity
     similarity_scores = sorted(similarity_scores, key=lambda x: x[1], reverse=True)
+    
     # Get top recommendations (excluding the movie itself)
     recommendations = similarity_scores[1:num_recommendations+1]
+    
     # Return movie titles
     return [movies.iloc[i[0]]['title'] for i in recommendations]
 📊 Model Performance
@@ -157,4 +190,3 @@ Crafted with ❤️ by Dibyendu Karmahapatra
 
 https://img.shields.io/github/stars/dibyendu6263/movie-recommendation-system?style=social
 https://img.shields.io/github/forks/dibyendu6263/movie-recommendation-system?style=social
-
