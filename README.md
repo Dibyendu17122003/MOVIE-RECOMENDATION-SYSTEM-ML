@@ -22,53 +22,44 @@ An Intelligent Content-Based Movie Recommender with Bag-of-Words Technique
 ✨ Features
 <div style="display: flex; flex-direction: column; gap: 15px; margin: 20px 0; align-items: flex-start;"> <div style="background: linear-gradient(135deg, #6f42c1 0%, #a855f7 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🎯 Bag-of-Words Model</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Advanced text representation with CountVectorizer</p> </div> <div style="background: linear-gradient(135deg, #28a745 0%, #4ade80 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🔧 Data Preprocessing</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Comprehensive text cleaning and feature engineering</p> </div> <div style="background: linear-gradient(135deg, #0d6efd 0%, #66b2ff 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">📊 Vectorization</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Efficient text-to-vector conversion</p> </div> <div style="background: linear-gradient(135deg, #dc3545 0%, #f87171 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🤖 Model Building</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Cosine similarity for content-based filtering</p> </div> <div style="background: linear-gradient(135deg, #fd7e14 0%, #ffb84d 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">⚡ Model Improvement</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Hyperparameter tuning and optimization</p> </div> <div style="background: linear-gradient(135deg, #20c997 0%, #5eead4 100%); color: white; padding: 15px 20px; border-radius: 12px; width: 300px; text-align: left; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;"> <h4 style="margin: 0 0 8px 0; font-size: 18px;">🎨 Interactive UI</h4> <p style="margin: 0; font-size: 14px; opacity: 0.9;">Beautiful Streamlit interface with movie posters</p> </div> </div>
 
-<h2 align="center">🌍 Real-Life Scenarios Where It's Useful</h2>
+## 🎯 Applications  
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; font-family: 'Segoe UI', sans-serif; padding: 20px;">
-
-  <!-- Card 1 -->
-  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(127,0,255,0.4); transition: all 0.3s ease;">
-    <h3 style="color:#e3dfff;">🎬 Streaming Platforms</h3>
-    <p style="color: #dcdcdc;">Powers <b>Netflix</b>, <b>Prime Video</b>, <b>Disney+</b> style recommendations → more watch-time & user engagement.</p>
-  </div>
-
-  <!-- Card 2 -->
-  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.25); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(255,81,47,0.45); transition: all 0.3s ease;">
-    <h3 style="color:#ffe3e3;">🍿 Cinema & Ticketing Apps</h3>
-    <p style="color: #dcdcdc;">Boosts ticket sales by recommending <b>upcoming & trending movies</b> in apps like <b>BookMyShow</b> & <b>Fandango</b>.</p>
-  </div>
-
-  <!-- Card 3 -->
-  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(17,153,142,0.45); transition: all 0.3s ease;">
-    <h3 style="color:#d2fff2;">📱 OTT Aggregators</h3>
-    <p style="color: #dcdcdc;">Helps users discover <b>hidden gems</b> across multiple OTT platforms → saves browsing time.</p>
-  </div>
-
-  <!-- Card 4 -->
-  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(0,114,255,0.45); transition: all 0.3s ease;">
-    <h3 style="color:#d2e9ff;">🛒 E-Commerce & Merchandise</h3>
-    <p style="color: #dcdcdc;">Suggests <b>DVDs, Blu-rays, merchandise</b> tied to a user’s favorite films → drives purchases.</p>
-  </div>
-
-  <!-- Card 5 -->
-  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(255,200,47,0.45); transition: all 0.3s ease;">
-    <h3 style="color:#fff4d2;">🤖 AI Chatbots & Assistants</h3>
-    <p style="color: #dcdcdc;">Integrates with <b>Alexa</b> / <b>Google Assistant</b> → answers “<i>Suggest me a thriller movie</i>”.</p>
-  </div>
-
-  <!-- Card 6 -->
-  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(255,8,68,0.45); transition: all 0.3s ease;">
-    <h3 style="color:#ffe3ec;">🎥 Movie Communities</h3>
-    <p style="color: #dcdcdc;">Smart suggestions on <b>IMDb</b>, <b>Letterboxd</b> & forums → enriches reviews & discussions.</p>
-  </div>
-
-  <!-- Card 7 -->
-  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.25); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(86,204,242,0.45); transition: all 0.3s ease;">
-    <h3 style="color:#d2f5ff;">🏫 Education & Research</h3>
-    <p style="color: #dcdcdc;">Explains <b>ML, NLP, recommender systems</b> in academic & research projects.</p>
-  </div>
-
-</div>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>🎬 Streaming Platforms</h3>
+      <p>Personalized recommendations for platforms like <b>Netflix, Prime Video</b>.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🍿 Cinema & Ticketing Apps</h3>
+      <p>Suggest movies based on users’ <b>past bookings & favorites</b>.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>📱 OTT Aggregators</h3>
+      <p>Help users discover <b>hidden gems</b> across multiple apps.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <h3>🛒 E-Commerce & Merch</h3>
+      <p>Recommend <b>Blu-rays, collectibles, merchandise</b> tied to movies.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🤖 AI Chatbots</h3>
+      <p>Provide <b>smart movie suggestions</b> via assistants & bots.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🎥 Film Communities</h3>
+      <p>Boost engagement with <b>AI-driven recommendations</b>.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3">
+      <h3>🏫 Education & Research</h3>
+      <p>Demonstrates <b>Machine Learning & NLP</b> in real-world applications.</p>
+    </td>
+  </tr>
+</table>
 
 
 
@@ -230,6 +221,7 @@ Crafted with ❤️ by Dibyendu Karmahapatra
 
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
