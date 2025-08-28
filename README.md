@@ -24,79 +24,48 @@ An Intelligent Content-Based Movie Recommender with Bag-of-Words Technique
 
 <h2 align="center">🌍 Real-Life Scenarios Where It's Useful</h2>
 
-<style>
-  .scenario-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    font-family: 'Segoe UI', sans-serif;
-    padding: 20px;
-  }
-  .scenario-card {
-    flex: 1 1 300px;
-    max-width: 320px;
-    background: rgba(255,255,255,0.08);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255,255,255,0.2);
-    padding: 20px;
-    border-radius: 18px;
-    color: white;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
-    transition: all 0.35s ease;
-  }
-  .scenario-card:hover {
-    transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 12px 30px rgba(127,0,255,0.6), 0 0 15px rgba(255,255,255,0.2) inset;
-  }
-  .scenario-card h3 {
-    margin-top: 0;
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-  }
-  .scenario-card p {
-    margin: 0;
-    font-size: 0.95rem;
-    line-height: 1.4;
-    color: #e5e5e5;
-  }
-</style>
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; font-family: 'Segoe UI', sans-serif; padding: 20px;">
 
-<div class="scenario-grid">
-
-  <div class="scenario-card" style="box-shadow: 0 8px 24px rgba(127,0,255,0.45);">
-    <h3>🎬 Streaming Platforms</h3>
-    <p>Powers <b>Netflix</b>, <b>Prime Video</b>, <b>Disney+</b> style recommendations → more watch-time & engagement.</p>
+  <!-- Card 1 -->
+  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(127,0,255,0.4); transition: all 0.3s ease;">
+    <h3 style="color:#e3dfff;">🎬 Streaming Platforms</h3>
+    <p style="color: #dcdcdc;">Powers <b>Netflix</b>, <b>Prime Video</b>, <b>Disney+</b> style recommendations → more watch-time & user engagement.</p>
   </div>
 
-  <div class="scenario-card" style="box-shadow: 0 8px 24px rgba(255,81,47,0.45);">
-    <h3>🍿 Cinema & Ticketing Apps</h3>
-    <p>Boosts ticket sales by suggesting <b>trending & upcoming movies</b> in <b>BookMyShow</b>, <b>Fandango</b>.</p>
+  <!-- Card 2 -->
+  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.25); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(255,81,47,0.45); transition: all 0.3s ease;">
+    <h3 style="color:#ffe3e3;">🍿 Cinema & Ticketing Apps</h3>
+    <p style="color: #dcdcdc;">Boosts ticket sales by recommending <b>upcoming & trending movies</b> in apps like <b>BookMyShow</b> & <b>Fandango</b>.</p>
   </div>
 
-  <div class="scenario-card" style="box-shadow: 0 8px 24px rgba(17,153,142,0.45);">
-    <h3>📱 OTT Aggregators</h3>
-    <p>Helps users discover <b>hidden gems</b> across multiple OTT platforms → saves browsing time.</p>
+  <!-- Card 3 -->
+  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(17,153,142,0.45); transition: all 0.3s ease;">
+    <h3 style="color:#d2fff2;">📱 OTT Aggregators</h3>
+    <p style="color: #dcdcdc;">Helps users discover <b>hidden gems</b> across multiple OTT platforms → saves browsing time.</p>
   </div>
 
-  <div class="scenario-card" style="box-shadow: 0 8px 24px rgba(0,114,255,0.45);">
-    <h3>🛒 E-Commerce & Merchandise</h3>
-    <p>Recommends <b>DVDs, Blu-rays, collectibles</b> tied to favorite films → drives purchases.</p>
+  <!-- Card 4 -->
+  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(0,114,255,0.45); transition: all 0.3s ease;">
+    <h3 style="color:#d2e9ff;">🛒 E-Commerce & Merchandise</h3>
+    <p style="color: #dcdcdc;">Suggests <b>DVDs, Blu-rays, merchandise</b> tied to a user’s favorite films → drives purchases.</p>
   </div>
 
-  <div class="scenario-card" style="box-shadow: 0 8px 24px rgba(255,200,47,0.45);">
-    <h3>🤖 AI Chatbots & Assistants</h3>
-    <p>Integrates with <b>Alexa</b> / <b>Google Assistant</b> → answers “<i>Suggest me a thriller movie</i>”.</p>
+  <!-- Card 5 -->
+  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(255,200,47,0.45); transition: all 0.3s ease;">
+    <h3 style="color:#fff4d2;">🤖 AI Chatbots & Assistants</h3>
+    <p style="color: #dcdcdc;">Integrates with <b>Alexa</b> / <b>Google Assistant</b> → answers “<i>Suggest me a thriller movie</i>”.</p>
   </div>
 
-  <div class="scenario-card" style="box-shadow: 0 8px 24px rgba(255,8,68,0.45);">
-    <h3>🎥 Movie Communities</h3>
-    <p>Smart suggestions on <b>IMDb</b>, <b>Letterboxd</b> & forums → enriches reviews & discussions.</p>
+  <!-- Card 6 -->
+  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(255,8,68,0.45); transition: all 0.3s ease;">
+    <h3 style="color:#ffe3ec;">🎥 Movie Communities</h3>
+    <p style="color: #dcdcdc;">Smart suggestions on <b>IMDb</b>, <b>Letterboxd</b> & forums → enriches reviews & discussions.</p>
   </div>
 
-  <div class="scenario-card" style="box-shadow: 0 8px 24px rgba(86,204,242,0.45);">
-    <h3>🏫 Education & Research</h3>
-    <p>Demonstrates <b>ML, NLP, recommender systems</b> in academic & research projects.</p>
+  <!-- Card 7 -->
+  <div style="flex: 1 1 300px; max-width: 320px; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.25); padding: 20px; border-radius: 18px; color: white; box-shadow: 0 8px 24px rgba(86,204,242,0.45); transition: all 0.3s ease;">
+    <h3 style="color:#d2f5ff;">🏫 Education & Research</h3>
+    <p style="color: #dcdcdc;">Explains <b>ML, NLP, recommender systems</b> in academic & research projects.</p>
   </div>
 
 </div>
@@ -261,6 +230,7 @@ Crafted with ❤️ by Dibyendu Karmahapatra
 
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
