@@ -75,7 +75,7 @@ Installation
 Clone the repository
 
 
-git clone https://github.com/dibyendu6263/movie-recommendation-system.git
+git clone https://github.com/Dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML.git
 cd movie-recommendation-system
 Set up the environment
 
