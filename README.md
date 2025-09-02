@@ -17,8 +17,6 @@ An Intelligent Content-Based Movie Recommender with Bag-of-Words Technique
 <a href="https://huggingface.co/spaces/Dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM" target="_blank">
   <img src="https://img.shields.io/badge/🤗-Gradio%20App-FF4B4B?style=for-the-badge&logo=gradio&logoColor=white" alt="Open in Gradio">
 </a>
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)]()
-
 </div>
 
 ✨ Features
