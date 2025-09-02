@@ -11,17 +11,20 @@
 
 </div>
 
+```mermaid
 flowchart TD
-    A[📖 Table of Contents] --> B[🔹 Problem Statement]
-    A --> C[💡 Proposed Solution]
-    A --> D[🖥️ System Overview]
-    A --> E[🛠️ Workflow Architecture]
-    A --> F[⚙️ Implementation Details]
-    A --> G[📊 Model Performance]
-    A --> H[🌐 Applications]
-    A --> I[🚀 Deployment]
-    A --> J[🔮 Future Enhancements]
-    A --> K[👨‍💻 About the Developer]
+    A[📖 Table of Contents]
+    A --> B[🔹 Problem Statement]
+    B --> C[💡 Proposed Solution]
+    C --> D[🖥️ System Overview]
+    D --> E[🛠️ Workflow Architecture]
+    E --> F[⚙️ Implementation Details]
+    F --> G[📊 Model Performance]
+    G --> H[🌐 Applications]
+    H --> I[🚀 Deployment]
+    I --> J[🔮 Future Enhancements]
+    J --> K[👨‍💻 About the Developer]
+```
 
 
 
